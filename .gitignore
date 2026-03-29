@@ -1,0 +1,97 @@
+# .NET
+## Build results
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## ASP.NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## NuGet
+*.nupkg
+*.snupkg
+nuget.exe
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Logs
+*.log
+logs/
+
+## Database
+*.mdf
+*.ldf
+*.ndf
+*.db
+
+## Secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Test results
+TestResults/
+
+# Angular / Node
+## Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+## Build outputs
+dist/
+build/
+.tmp/
+
+## Angular
+.angular/
+.angular/cache/
+.sass-cache/
+coverage/
+
+## Environment
+.env
+.env.local
+.env.*.local
+
+## IDE
+.idea/
+*.swp
+*.swo
+*~
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Misc
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
